@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;700&display=swap');
+
+body {
+    font: 400 1rem "Source Sans Pro", sans-serif;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+}
+
+body, p {
+    color: #212529;
+    font: 400 1.1rem "Source Sans Pro", sans-serif;
+    line-height: 1.5rem;
+}
+
+p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.navbar .nav-item .nav-link {
+    color: #2d2d2d;
+    margin-right: 0.5rem;
+}
+
+.navbar-custom {
+    box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
+    background-color: white;
+    padding: 1.5rem 5rem 1.5rem 5rem;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.btn-info {
+    background-color: #1fa9dd;
+    color: white;
+    padding: 0.3rem 1.5rem;
+    border-radius: 2rem;
+    text-transform: uppercase;
+    font: 700 0.75rem, 'Source Sans Pro', sans-serif;
+}
+
+.btn-danger {
+    border-radius: 2rem;
+    text-transform: uppercase;
+    font: 700 0.75rem/10rem, "Source Sans Pro", sans-serif;
+    padding: 0.4rem 2rem;
+
+}
+  
+select {
+    display: inline-block;
+    font: 1rem "Source Sans Pro", sans-serif;
+    color:  #2d2d2d;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0rem 0.2rem 0rem 0.2rem;
+    border: none;
+    box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
+    appearance: none;
+    background-color: #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image:
+        linear-gradient(45deg, transparent 50%,#1fa9dd 50%),
+        linear-gradient(135deg,#1fa9dd 50%, transparent 50%);
+    background-position:
+        calc(100% - 20px) calc(1em + 2px),
+        calc(100% - 15px) calc(1em + 2px),
+        calc(100% - 2.5em) 0.5em;
+    background-size:
+        5px 5px,
+        5px 5px,
+        1px 1.5em;
+    background-repeat: no-repeat;
+}
+
+.pages, h1 {
+    color: #2d2d2d;
+    font: 700 2rem 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    padding-top: 10rem;
+    text-align: center;
+}
+
+h3 { 
+    color: #1fa9dd;
+    font: 1.1rem "Source Sans Pro", sans-serif;
+    text-transform: uppercase;
+}
+
+h3.soustitre {
+    color: #2d2d2d;
+    font: 300 2.2rem 'Source Sans Pro', sans-serif;
+    text-transform: none;
+}
+
+.modal-content {
+    border: none;
+    border-radius: 0;
+}
+
+.form-option {
+    color: #2d2d2d;
+    font: 700 1.1rem 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.section-divider {
+    display: block;
+    width: 70px;
+    height: 5px;
+    background-color: #1fa9dd;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.form-cart {
+    box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
+    padding: 2.3rem 1rem;
+    justify-content: center;
+}
+
+label {
+    font:600 1rem 'Source Sans Pro', sans-serif;
+}
+
+.section-divider-cart {
+    display: block;
+    width: 80px;
+    height: 3px;
+    background-color: #1fa9dd;
+    margin: 0 auto;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.content-text-container {
+    margin: 1.5rem 3rem 1rem 1rem;
+}
+
+.footer {
+    background-color: #2d2d2d;
+    margin-top: 3rem;
+}
+
+.social-links a {
+    display: inline-block;
+    color: #9b9b9b;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.footer .social-links {
+    text-align: right;
+}
+
+.copyright {
+    color: #9b9b9b;
+    font: 400 0.75rem 'Source Sans Pro', sans-serif;
+}
+
+.price strong {
+    font-size: 1.8rem;
+}
+
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
